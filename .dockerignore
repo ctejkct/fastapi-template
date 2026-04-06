@@ -1,0 +1,32 @@
+# Version control
+.git
+.gitignore
+.env
+# IDE
+.idea
+.vscode
+
+# Python caches
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.mypy_cache
+.ruff_cache
+
+# Tests (not needed in production image)
+tests/
+
+# Logs
+logs/
+
+# Documentation
+*.md
+
+# Dev config
+.pre-commit-config.yaml
+pytest.ini
+
+# OS files
+.DS_Store
+Thumbs.db
